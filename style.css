@@ -20,25 +20,51 @@ body {
 }
 
 .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 800;
   font-size: 20px;
+  color: #202020;
+  text-decoration: none;
+}
+
+.brand img {
+  height: 42px;
+  width: auto;
+  display: block;
 }
 
 .site-header nav {
   display: flex;
-  gap: 18px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
-.site-header a {
+.site-header a:not(.brand) {
   color: #202020;
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
+  background: #f5f2f6;
+  border: 1px solid #ded8e6;
+  padding: 8px 12px;
 }
 
-.site-header a:hover {
+.site-header a:not(.brand)::before {
+  content: "↓ ";
   color: #e84c7f;
+}
+
+.site-header a:not(.brand):hover {
+  background: #e84c7f;
+  color: #ffffff;
+  border-color: #e84c7f;
+}
+
+.site-header a:not(.brand):hover::before {
+  color: #ffffff;
+}
 }
 
 section {
