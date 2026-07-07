@@ -65,7 +65,6 @@ body {
 .site-header a:not(.brand):hover::before {
   color: #ffffff;
 }
-}
 
 section {
   max-width: 1050px;
