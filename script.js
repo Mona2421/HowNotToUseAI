@@ -62,3 +62,18 @@ function vorherigesPoster() {
 }
 
 posterAnzeigen();
+
+document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+  link.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    const ziel = document.querySelector(this.getAttribute("href"));
+
+    if (ziel) {
+      ziel.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+  });
+});
