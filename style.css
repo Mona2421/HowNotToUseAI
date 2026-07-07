@@ -6,129 +6,6 @@ body {
   line-height: 1.6;
 }
 
-section {
-  max-width: 1050px;
-  margin: 0 auto;
-  padding: 48px 24px;
-}
-
-#intro {
-  background: #ffffff;
-  max-width: none;
-  padding: 64px 24px;
-}
-
-#intro h1,
-#intro p {
-  max-width: 1050px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-h1 {
-  font-size: 42px;
-  line-height: 1.1;
-  margin-bottom: 24px;
-}
-
-h2 {
-  font-size: 30px;
-  margin-bottom: 18px;
-}
-
-h3 {
-  font-size: 22px;
-}
-
-article {
-  background: white;
-  border: 1px solid #ded8e6;
-  padding: 22px;
-  margin: 18px 0;
-}
-
-blockquote {
-  border-left: 4px solid #e84c7f;
-  margin: 18px 0 0;
-  padding-left: 16px;
-  font-style: italic;
-}
-
-.carousel {
-  display: grid;
-  grid-template-columns: 90px minmax(0, 720px) 90px;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-  margin-top: 28px;
-}
-
-.poster-card {
-  text-align: center;
-}
-
-#posterAnzeige {
-  background: white;
-  border: 1px solid #ded8e6;
-  padding: 18px;
-}
-
-#posterAnzeige img {
-  width: 100%;
-  max-height: 760px;
-  object-fit: contain;
-  display: block;
-}
-
-.poster-placeholder {
-  min-height: 520px;
-  border: 2px dashed #999;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f3f3f3;
-  color: #555;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-button {
-  padding: 12px 18px;
-  cursor: pointer;
-  border: 1px solid #4f4863;
-  background: #ffffff;
-  color: #202020;
-  font-weight: bold;
-}
-
-button:hover {
-  background: #e84c7f;
-  color: white;
-}
-
-#hilfe {
-  background: #ffffff;
-  border-top: 1px solid #ded8e6;
-}
-
-@media (max-width: 800px) {
-  h1 {
-    font-size: 32px;
-  }
-
-  .carousel {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .poster-card {
-    grid-column: 1 / 3;
-    order: -1;
-  }
-
-  button {
-    width: 100%;
-  }
-}
 .site-header {
   position: sticky;
   top: 0;
@@ -164,16 +41,64 @@ button:hover {
   color: #e84c7f;
 }
 
+section {
+  max-width: 1050px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+#intro {
+  background: #ffffff;
+  max-width: none;
+  padding: 64px 24px;
+}
+
+#intro h1,
+#intro p {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 1.1;
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+article {
+  background: #ffffff;
+  border: 1px solid #ded8e6;
+  padding: 22px;
+  margin: 18px 0;
+}
+
+blockquote {
+  border-left: 4px solid #e84c7f;
+  margin: 18px 0 0;
+  padding-left: 16px;
+  font-style: italic;
+}
+
 #kampagne {
   max-width: 1120px;
 }
 
 .carousel {
   display: grid;
-  grid-template-columns: 54px minmax(0, 760px) 54px;
+  grid-template-columns: 56px minmax(0, 760px) 56px;
   align-items: center;
   justify-content: center;
-  gap: 22px;
+  gap: 24px;
   margin-top: 32px;
 }
 
@@ -197,54 +122,72 @@ button:hover {
   display: block;
 }
 
-.poster-card h3,
-.poster-card p {
-  max-width: 680px;
-  margin-left: auto;
-  margin-right: auto;
+.poster-placeholder {
+  min-height: 520px;
+  border: 2px dashed #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f3f3;
+  color: #555;
+  font-size: 28px;
+  font-weight: bold;
 }
 
-.poster-card h3 {
-  margin-top: 28px;
-  margin-bottom: 14px;
-}
-
-#posterBeschreibung,
-#posterRisiko {
-  text-align: left;
-  background: #f8f6fa;
-  border-left: 4px solid #e84c7f;
-  padding: 14px 16px;
-}
-
-#posterRisiko {
-  border-left-color: #4f4863;
-}
-
+.carousel button,
 .carousel-button {
-  width: 54px;
-  height: 54px;
-  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
   border: 1px solid #4f4863;
   background: #ffffff;
   color: #202020;
-  font-size: 34px;
+  font-size: 32px;
+  font-weight: 700;
   line-height: 1;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 0;
+  cursor: pointer;
 }
 
+.carousel button:hover,
 .carousel-button:hover {
   background: #e84c7f;
   color: #ffffff;
   border-color: #e84c7f;
 }
 
+.poster-card h3 {
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+#posterBeschreibung,
+#posterRisiko {
+  max-width: 680px;
+  margin: 12px auto;
+  text-align: left;
+  background: #ffffff;
+  border: 1px solid #ded8e6;
+  border-left: 5px solid #e84c7f;
+  padding: 16px 18px;
+}
+
+#posterRisiko {
+  border-left-color: #4f4863;
+}
+
+#hilfe {
+  background: #ffffff;
+  border: 1px solid #ded8e6;
+  margin-bottom: 48px;
+}
+
 #impressum {
   background: #202020;
-  color: white;
+  color: #ffffff;
   max-width: none;
   padding: 40px 7vw;
 }
@@ -262,6 +205,10 @@ button:hover {
     flex-direction: column;
   }
 
+  h1 {
+    font-size: 32px;
+  }
+
   .carousel {
     grid-template-columns: 1fr 1fr;
   }
@@ -272,6 +219,7 @@ button:hover {
     padding: 14px;
   }
 
+  .carousel button,
   .carousel-button {
     width: 100%;
     border-radius: 0;
