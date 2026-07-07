@@ -120,8 +120,13 @@ blockquote {
   font-style: italic;
 }
 
+#modell {
+  padding-bottom: 24px;
+}
+
 #kampagne {
   max-width: 1120px;
+  padding-top: 24px;
 }
 
 .carousel {
