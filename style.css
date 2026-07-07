@@ -1,1 +1,38 @@
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
 
+.poster-card {
+  max-width: 620px;
+  text-align: center;
+}
+
+#posterAnzeige img {
+  width: 100%;
+  max-height: 700px;
+  object-fit: contain;
+  border: 1px solid #ddd;
+  background: white;
+}
+
+.poster-placeholder {
+  width: 100%;
+  min-height: 500px;
+  border: 2px dashed #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f3f3f3;
+  color: #555;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px 16px;
+  cursor: pointer;
+}
