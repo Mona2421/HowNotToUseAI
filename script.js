@@ -1,6 +1,6 @@
-vconst poster = [
+const poster = [
   {
-    bild: "poster/rentner.png",
+    bild: "rentner.png",
     platzhalter: false,
     titel: "Herr Schneider: Gesundheitsfragen",
     beschreibung:
