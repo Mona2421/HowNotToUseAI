@@ -17,9 +17,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 24px;
-  padding: 18px 7vw;
-  background: rgba(255, 255, 255, 0.94);
+  gap: 32px;
+  padding: 14px 7vw;
+  background: rgba(255, 255, 255, 0.96);
   border-bottom: 1px solid #ded8e6;
 }
 
@@ -41,7 +41,7 @@ body {
 
 .site-header nav {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 
@@ -75,7 +75,7 @@ body {
 section {
   max-width: 1050px;
   margin: 0 auto;
-  padding: 48px 24px;
+  padding: 40px 24px;
 }
 
 #intro {
