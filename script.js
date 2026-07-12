@@ -1,6 +1,6 @@
 const poster = [
   {
-    bild: "rentner.png",
+    bild: "Senior.png",
     platzhalter: false,
     titel: "Herr Schneider: Gesundheitsfragen",
     beschreibung:
@@ -9,8 +9,8 @@ const poster = [
       "Risiko: Eine KI ist kein Arzt. Sie kann Symptome übersehen oder falsche medizinische Ratschläge geben. Blindes Vertrauen in die Maschine kann gesundheitsgefährdend sein."
   },
   {
-    bild: "",
-    platzhalter: true,
+    bild: "Studentin.png",
+    platzhalter: false,
     titel: "Lena: Emotionale Unterstützung",
     beschreibung:
       "Lena hat eine Trennung hinter sich und fühlt sich einsam. In dieser emotionalen Ausnahmesituation nutzt sie KI als ständige, zuhörende Ansprechpartnerin.",
@@ -18,8 +18,8 @@ const poster = [
       "Risiko: KI hat keine echte Empathie und ist nicht psychologisch geschult. Sie simuliert Mitgefühl. Das kann echte Hilfe verzögern."
   },
   {
-    bild: "",
-    platzhalter: true,
+    bild: "Schüler.png",
+    platzhalter: false,
     titel: "Leon: Leistungsdruck in der Schule",
     beschreibung:
       "Leon steht unter Leistungsdruck. Anfangs nutzt er ChatGPT nur als Nachhilfe. Weil seine Noten besser werden, entwickelt er sehr starkes Vertrauen.",
