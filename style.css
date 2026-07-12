@@ -30,7 +30,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 32px;
-  padding: 14px 7vw;
+  padding: 10px 7vw;
   background: var(--navy);
   border-bottom: 4px solid var(--pink);
 }
@@ -38,7 +38,7 @@ body {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 14px;
   font-weight: 800;
   font-size: 20px;
   color: var(--white);
@@ -46,10 +46,11 @@ body {
 }
 
 .brand img {
-  height: 34px;
+  height: 38px;
   width: auto;
   display: block;
   background: var(--white);
+  padding: 6px 8px;
 }
 
 .site-header nav {
