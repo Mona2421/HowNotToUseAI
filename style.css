@@ -1,12 +1,24 @@
+:root {
+  --navy: #074477;
+  --light-blue: #dfeaff;
+  --poster-blue: #aebded;
+  --pink: #e7366f;
+  --yellow: #ffd84d;
+  --white: #ffffff;
+  --text: #102033;
+  --border: #b7c4e6;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 90px;
 }
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f5f2f6;
-  color: #202020;
+  background: var(--light-blue);
+  color: var(--text);
   line-height: 1.6;
 }
 
@@ -19,8 +31,8 @@ body {
   align-items: center;
   gap: 32px;
   padding: 14px 7vw;
-  background: rgba(255, 255, 255, 0.96);
-  border-bottom: 1px solid #ded8e6;
+  background: var(--navy);
+  border-bottom: 4px solid var(--pink);
 }
 
 .brand {
@@ -29,7 +41,7 @@ body {
   gap: 10px;
   font-weight: 800;
   font-size: 20px;
-  color: #202020;
+  color: var(--white);
   text-decoration: none;
 }
 
@@ -37,6 +49,7 @@ body {
   height: 34px;
   width: auto;
   display: block;
+  background: var(--white);
 }
 
 .site-header nav {
@@ -46,26 +59,21 @@ body {
 }
 
 .site-header a:not(.brand) {
-  color: #4f4863;
+  color: var(--white);
   text-decoration: none;
   font-weight: 700;
   font-size: 14px;
   padding: 8px 0;
-  border-bottom: 2px solid transparent;
 }
 
 .site-header a:not(.brand)::after {
   content: "";
   display: block;
-  height: 2px;
-  background: #e84c7f;
+  height: 3px;
+  background: var(--pink);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.2s ease;
-}
-
-.site-header a:not(.brand):hover {
-  color: #202020;
 }
 
 .site-header a:not(.brand):hover::after {
@@ -79,9 +87,10 @@ section {
 }
 
 #intro {
-  background: #ffffff;
+  background: var(--light-blue);
   max-width: none;
   padding: 64px 24px;
+  border-bottom: 10px solid var(--navy);
 }
 
 #intro h1,
@@ -107,14 +116,15 @@ h3 {
 }
 
 article {
-  background: #ffffff;
-  border: 1px solid #ded8e6;
+  background: var(--white);
+  border: 2px solid var(--border);
+  border-left: 8px solid var(--navy);
   padding: 22px;
   margin: 18px 0;
 }
 
 blockquote {
-  border-left: 4px solid #e84c7f;
+  border-left: 5px solid var(--pink);
   margin: 18px 0 0;
   padding-left: 16px;
   font-style: italic;
@@ -139,15 +149,15 @@ blockquote {
 }
 
 .poster-card {
-  background: #ffffff;
-  border: 1px solid #ded8e6;
+  background: var(--white);
+  border: 3px solid var(--navy);
   padding: 22px;
   text-align: center;
 }
 
 #posterAnzeige {
-  background: #f8f6fa;
-  border: 1px solid #ded8e6;
+  background: var(--light-blue);
+  border: 2px solid var(--border);
   padding: 16px;
 }
 
@@ -160,12 +170,12 @@ blockquote {
 
 .poster-placeholder {
   min-height: 520px;
-  border: 2px dashed #999;
+  border: 2px dashed var(--navy);
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #f3f3f3;
-  color: #555;
+  background: var(--light-blue);
+  color: var(--navy);
   font-size: 28px;
   font-weight: bold;
 }
@@ -175,9 +185,9 @@ blockquote {
   width: 56px;
   height: 56px;
   border-radius: 999px;
-  border: 1px solid #4f4863;
-  background: #ffffff;
-  color: #202020;
+  border: 2px solid var(--navy);
+  background: var(--white);
+  color: var(--navy);
   font-size: 32px;
   font-weight: 700;
   line-height: 0;
@@ -191,9 +201,9 @@ blockquote {
 
 .carousel button:hover,
 .carousel-button:hover {
-  background: #e84c7f;
-  color: #ffffff;
-  border-color: #e84c7f;
+  background: var(--pink);
+  color: var(--white);
+  border-color: var(--pink);
 }
 
 .poster-card h3 {
@@ -206,26 +216,26 @@ blockquote {
   max-width: 680px;
   margin: 12px auto;
   text-align: left;
-  background: #ffffff;
-  border: 1px solid #ded8e6;
-  border-left: 5px solid #e84c7f;
+  background: var(--white);
+  border: 2px solid var(--border);
+  border-left: 7px solid var(--pink);
   padding: 16px 18px;
 }
 
 #posterRisiko {
-  border-left-color: #4f4863;
+  border-left-color: var(--navy);
 }
 
 #hilfe {
-  background: #ffffff;
-  border: 1px solid #ded8e6;
+  background: var(--white);
+  border: 3px solid var(--pink);
   margin-top: 56px;
   margin-bottom: 48px;
 }
 
 #impressum {
-  background: #202020;
-  color: #ffffff;
+  background: var(--navy);
+  color: var(--white);
   max-width: none;
   padding: 40px 7vw;
 }
