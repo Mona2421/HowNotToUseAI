@@ -18,7 +18,7 @@ const poster = [
       "Risiko: KI hat keine echte Empathie und ist nicht psychologisch geschult. Sie simuliert Mitgefühl. Das kann echte Hilfe verzögern."
   },
   {
-    bild: "Schüler.png",
+    bild: "Schuler.png",
     platzhalter: false,
     titel: "Leon: Leistungsdruck in der Schule",
     beschreibung:
