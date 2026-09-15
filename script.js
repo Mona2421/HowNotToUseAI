@@ -2,7 +2,7 @@ const poster = [
   {
     bild: "Senior.png",
     platzhalter: false,
-    titel: "Herr Schneider: Gesundheitsfragen",
+    titel: "Herr Schneider: Dispositional Trust",
     beschreibung:
       "Herr Schneider nutzt das Internet für Nachrichten und Gesundheitsfragen. Er hat wenig technisches Fachwissen, geht aber davon aus, dass digitale Systeme kompetent und objektiv sind.",
     risiko:
@@ -11,7 +11,7 @@ const poster = [
   {
     bild: "Studentin.png",
     platzhalter: false,
-    titel: "Lena: Emotionale Unterstützung",
+    titel: "Lena: Situational Trust",
     beschreibung:
       "Lena hat eine Trennung hinter sich und fühlt sich einsam. In dieser emotionalen Ausnahmesituation nutzt sie KI als ständige, zuhörende Ansprechpartnerin.",
     risiko:
@@ -20,7 +20,7 @@ const poster = [
   {
     bild: "Schuler.png",
     platzhalter: false,
-    titel: "Leon: Leistungsdruck in der Schule",
+    titel: "Leon: Learned Trust",
     beschreibung:
       "Leon steht unter Leistungsdruck. Anfangs nutzt er ChatGPT nur als Nachhilfe. Weil seine Noten besser werden, entwickelt er sehr starkes Vertrauen.",
     risiko:
